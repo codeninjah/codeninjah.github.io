@@ -58,7 +58,26 @@ a:visited:hover {
 }
 
 
-/* For screens under 800px wide */
+/* For screens under 1401px wide */
+@media screen and (max-width: 1400px) {
+    body {
+        margin: 10px;
+    }
+
+    .header {
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+    .footer {
+        margin-right: 30px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+/* For screens under 801px wide */
 @media screen and (max-width: 800px) {
     body {
         margin: 0px;
@@ -66,6 +85,7 @@ a:visited:hover {
 
     .header {
         padding-left: 10px;
+        padding-right: 15px;
     }
 
     .footer {
@@ -75,3 +95,4 @@ a:visited:hover {
         right: 0;
     }
 }
+

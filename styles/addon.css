@@ -1,6 +1,14 @@
+body {
+    margin-bottom: 50px;
+}
+
 .main-container {
     border-right: 1px solid orange;
     border-bottom: 2px solid orange;
+}
+
+h2 {
+    margin-top: 50px;
 }
 
 #copyright {
@@ -18,10 +26,6 @@
         display: flex;
         flex-wrap: wrap;
     }
-
-    .diploma {
-        padding-right: 50px;
-    }
 }
 
 
@@ -30,10 +34,6 @@
         display: flex;
         flex-wrap: wrap;
         margin: 15px;
-    }
-
-    .diploma {
-        padding-right: 50px;
     }
 }
 
@@ -46,10 +46,5 @@
 
     .description {
         padding: 10px;
-    }
-
-    .diploma img {
-        height: 400px;
-        width: auto;
     }
 }

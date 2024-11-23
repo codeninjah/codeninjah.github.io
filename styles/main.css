@@ -4,8 +4,11 @@ body {
     font-family: Arial;
     display: flex;
     flex-wrap: wrap;
+    background-color: black;
+    color: white;
 }
 
+/*
 nav a::after {
     content: " ";
 }
@@ -13,19 +16,24 @@ nav a::after {
 nav {
     margin-bottom: 50px;
 }
+*/
 
 
 .video-container {
     margin-top: 50px;
     padding: 10px;
     border-bottom: 1px solid orange;
+    background-color: black;
+    color: white;
 }
 
 
 /* The description div used in the about.html page */
+/*
 .description {
     padding: 50px;
 }
+*/
 
 
 /* Styling for links */
@@ -72,16 +80,12 @@ a::after {
     position: fixed;
     bottom: 0;
     right: 0;
+    background-color: transparent;
 }
 
-.diploma {
-    text-align: right;
-    padding: 50px;
-}
-
-.diploma img {
-    height: 600px;
-    width: auto;
+.footer > * {
+    background-color: transparent;
+    color: orange;
 }
 
 #copyright {
@@ -89,9 +93,16 @@ a::after {
     font-size: 24px;
 }
 
-#copyright a {
+.fa-linkedin {
+    background-color: transparent;
     color: #0077B5;
 }
+
+/*
+#copyright a {
+    color: #0077B5 !important;
+}
+*/
 
 #copyright a::after {
     content: " ";

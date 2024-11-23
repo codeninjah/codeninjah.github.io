@@ -8,6 +8,14 @@ body {
     color: white;
 }
 
+h1 {
+    color: orange;
+}
+
+h3 {
+    color: orange;
+}
+
 /*
 nav a::after {
     content: " ";

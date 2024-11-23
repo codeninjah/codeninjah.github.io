@@ -4,6 +4,13 @@ body {
     font-family: Arial;
 }
 
+nav a::after {
+    content: " ";
+}
+
+nav {
+    margin-bottom: 50px;
+}
 /*
 body, h1, h3, p {
     font-family: Arial;
@@ -63,6 +70,15 @@ a::after {
     right: 0;
 }
 
+.diploma {
+    text-align: right;
+}
+
+.diploma img {
+    height: 600px;
+    width: auto;
+}
+
 #copyright {
     font-family: Arial;
     font-size: 24px;
@@ -84,11 +100,19 @@ a::after {
         padding-right: 15px;
     }
 
+    .main-container p {
+        padding: 10px;
+    }
+
     .footer {
         margin-right: 30px;
         position: fixed;
         bottom: 0;
         right: 0;
+    }
+
+    .diploma {
+        padding: 10px;
     }
 }
 

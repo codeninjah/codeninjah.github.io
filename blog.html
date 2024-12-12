@@ -22,6 +22,21 @@
         </nav>
     </div>
     <div class="main-container">
+        <div class="post">
+            <h2>My Unsplash API project is now LIVE on Netlify</h2>
+            <time datetime="2024-12-12">December 12th, 2024</time>
+            <p>I have now managed to publish the Unsplash API project on Netlify. You are able to try it and "feel" it.
+                For the more technical skilled people reading this, I had to change some of the initial code because I needed to hide my
+                API key. So the solution was to run some NodeJS magic that would get the key from the environmental variables that Netlify
+                let's you add somewhere in the priject dashboard. After that I needed to change some of the frontend code to fetch from 
+                the needed endpoints. Of course, there are stuff I can improve. 
+            </p>
+            <p>Random pic on the landing page works every time. The search function works, the pagination works - the issue it would be that
+                if you for example have tens of pages of pictures returning as results, and you wanna jump within seconds from page 1 to page 7 or 10 or
+                20 etc, it may take a couple of seconds or you may have to wait a couple of seconds before clicking again on the same page link.
+                Modal also works for when you click on the pictures. I haven't tried by myself how it works on the phone.</p>
+            <p>Here is the link for you to <a href="https://unsplash-api-alexandru-florin.netlify.app/"> try this project</a>.</p>
+        </div>
             <div class="post">
                 <h2>Biggest challenge right now</h2>
                 <p class="date"><time datetime="2024-12-06">December 6th, 2024</time></p>

@@ -10,6 +10,8 @@ body {
 h2 {
     margin-top: 50px;
     color: orange;
+    letter-spacing: -0.75px;
+    font-size: 25px;
 }
 
 

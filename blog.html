@@ -23,8 +23,21 @@
     </div>
     <div class="main-container">
         <div class="post">
+            <h2>New project repo on Git Hub</h2>
+            <p class="date"><time datetime="2024-12-15">December 15th, 2024</time></p>
+            <p>I have managed to create a basic file sharing web app using Python and Flask. I am really excited about Flask! My first time writing
+                anything with it. This app let's you see the content of a shared folder on a local server, download files, let's you upload files.
+                There is a limit of max 5 downloads per minute, which you can adjust by just changing a number. Also there is a log file created and
+                more advanced logging such as ip numbers of visitors, names of files uploaded, downloaded etc.  
+            </p>
+            <p>A first security protection measure added is against path traversal attacks. <quote>A path traversal attack (also known as directory traversal) 
+                aims to access files and directories that are stored outside the web root folder.</quote> Source:<a href="https://owasp.org/www-community/attacks/Path_Traversal">
+                 OWASP.org</a>. You only need python installed and install two packages before you can give it a try. Here's a link to 
+                <a href="https://github.com/codeninjah/FileSharing-webserver">the repo project</a>.</p>
+        </div>
+        <div class="post">
             <h2>My Unsplash API project is now LIVE on Netlify</h2>
-            <time datetime="2024-12-12">December 12th, 2024</time>
+            <p class="date"><time datetime="2024-12-12">December 12th, 2024</time></p>
             <p>I have now managed to publish the Unsplash API project on Netlify. You are able to try it and "feel" it.
                 For the more technical skilled people reading this, I had to change some of the initial code because I needed to hide my
                 API key. So the solution was to run some NodeJS magic that would get the key from the environmental variables that Netlify

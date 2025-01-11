@@ -29,6 +29,11 @@ h2 {
     border-bottom: 1px solid orange;
 }
 
+.highlight {
+    color: orange;
+    letter-spacing: -1px;
+}
+
 
 /* Media queries */
 @media screen and (max-width: 1400){

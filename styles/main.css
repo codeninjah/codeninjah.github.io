@@ -72,7 +72,7 @@ a::after {
 
 
 /* Footer */
-.footer {
+footer {
     margin-right: 310px;
     position: fixed;
     bottom: 0;
@@ -80,7 +80,7 @@ a::after {
     background-color: transparent;
 }
 
-.footer > * {
+footer > * {
     background-color: transparent;
     color: orange;
 }
@@ -131,7 +131,7 @@ a::after {
     }
     
 
-    .footer {
+    footer {
         margin-right: 30px;
         position: fixed;
         bottom: 0;
@@ -166,7 +166,7 @@ a::after {
     }
     
 
-    .footer {
+    footer {
         margin-right: 10px;
         position: fixed;
         bottom: 0;
